@@ -1,3 +1,7 @@
+## Certificado
+
+[Ver certificado de Programación Básica](https://platzi.com/p/olivernie2626/curso/3208-programacion-basica-2022/diploma/detalle/)
+
 # Mokepon! 🐾🔥💧🌱
 
 Mokepon es un juego web multijugador de batalla de mascotas construido con **HTML5**, **CSS3**, **JavaScript Vanilla** (DOM y API de Canvas) y un backend en **Node.js + Express**. Los jugadores eligen una mascota Mokepon (*Hipodoge*, *Capipepo* o *Ratigueya*), se desplazan en tiempo real por un mapa 2D en Canvas para encontrar oponentes y combaten usando ataques elementales (*Fuego* 🔥, *Agua* 💧 y *Tierra* 🌱).
