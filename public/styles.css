@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo,
+.titulo {
+    color: #ff79c6;
+    font-size: 32px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.subtitulo {
+    color: #8be9fd;
+    font-size: 20px;
+}
+
+.tarjetas,
+.tarjetas-ataques {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 180px;
+    height: 100px;
+    background-color: #44475a;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #6272a4;
+    display: flex;
+    color: #f8f8f2;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    background-color: #bd93f9;
+    border-color: #50fa7b;
+    color: #282a36;
+}
+
+#boton-mascota {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #50fa7b;
+    color: #f8f8f2;
+    font-family: "Inter", sans-serif;
+    margin-top: 30px;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    background-color: #44475a;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid #bd93f9;
+    width: 100px;
+    color: #f8f8f2;
+    font-family: "Inter", sans-serif;
+}
+
+#boton-fuego {
+    border-color: #ff5555;
+}
+
+#boton-agua {
+    border-color: #8be9fd;
+}
+
+#boton-tierra {
+    border-color: #50fa7b;
+}
+
+#mensajes {
+    width: 280px;
+    background-color: #44475a;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid #6272a4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#resultado {
+    color: #f1fa8c;
+    margin: 0;
+}
+
+#boton-reiniciar {
+    display: block;
+    background-color: #282a36;
+    border: 2px solid #ff79c6;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #ff79c6;
+    font-family: "Inter", sans-serif;
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    color: #f8f8f2;
+    background-color: #44475a;
+    border: 2px solid #6272a4;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#vidas-jugador {
+    color: #50fa7b;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+#vitas-enemigo {
+    color: #ff5555;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+#mascota-jugador {
+    color: #8be9fd;
+}
+
+#mascota-enemigo {
+    color: #ffb86c;
+}
+
+#ataques-del-jugador {
+    color: #f1fa8c;
+}
+
+#ataques-del-enemigo {
+    color: #ffb86c;
+}
+
+.ataques-jugador,
+.ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ver-mapa {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ver-mapa button {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #50fa7b;
+    color: #f8f8f2;
+    font-family: "Inter", sans-serif;
+    margin: 5px 0;
+}
+
+@media (max-width: 560px) {
+    .tarjetas,
+    .tarjetas-ataques {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 300px) {
+    #ver-mapa div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
